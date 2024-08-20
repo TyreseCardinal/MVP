@@ -1,16 +1,22 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Login from '@/components/Login.vue';
-import Register from '@/components/Register.vue';
-import Dashboard from '@/components/Dashboard.vue';
-import ProjectPage from '@/components/ProjectPage.vue';
+// Import views
+import Login from '@/views/Login.vue';
+import Register from '@/views/Register.vue';
+import Dashboard from '@/views/Dashboard.vue';
+import ProjectPage from '@/views/ProjectPage.vue';
+import TaskDetail from '@/views/TaskDetail.vue';
+import Profile from '@/views/Profile.vue';
+import Settings from '@/views/Settings.vue';
+
+// Import components
 import KanbanBoard from '@/components/KanbanBoard.vue';
-import TaskDetail from '@/components/TaskDetail.vue';
 import CreateTask from '@/components/CreateTask.vue';
 import EditTask from '@/components/EditTask.vue';
-import Profile from '@/components/Profile.vue';
-import Settings from '@/components/Settings.vue';
+// import Header from '@/components/Header.vue';  // Add this if it's used in views
+// import Sidebar from '@/components/Sidebar.vue';  // Add this if it's used in views
+// import TaskCard from '@/components/TaskCard.vue';  // Add this if it's used in views
 
 Vue.use(VueRouter);
 
