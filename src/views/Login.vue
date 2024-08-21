@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <h2>Login</h2>
     <form @submit.prevent="login">
       <label>
@@ -13,7 +13,7 @@
       <button type="submit">Login</button>
     </form>
     <p>Don't have an account? <router-link to="/register">Register</router-link></p>
-  </div>
+  </main>
 </template>
 
 <script>

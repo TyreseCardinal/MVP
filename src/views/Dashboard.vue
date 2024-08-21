@@ -36,13 +36,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 main {
   padding: 20px;
 }
 
 button {
-  background-color: #6F50C9;
+  background-color: $detail-color;
   /* Detail/Fill color */
   color: #fff;
   border: none;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: #CD84D4;
+  background-color: $secondary-color;
   /* Secondary color */
 }
 
